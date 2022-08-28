@@ -1,4 +1,4 @@
-package com.revature.daos;
+package com.econ.daos;
 
 import java.util.List;
 import com.revature.exceptions.CarAlreadyExistsException;

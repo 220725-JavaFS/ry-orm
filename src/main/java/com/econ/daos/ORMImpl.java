@@ -1,4 +1,4 @@
-package com.revature.daos;
+package com.econ.daos;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
