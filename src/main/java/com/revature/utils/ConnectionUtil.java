@@ -22,12 +22,12 @@ public class ConnectionUtil {
 		if (connection != null && !connection.isClosed()) {
 			return connection;
 		}
-		//Connection connection = null;
+		Connection connection = null;
 		try {
 			Class.forName("org.postgresql.Driver");
 			connection = DriverManager.getConnection(url, username, password);
 		} catch (SQLException | ClassNotFoundException e) {
-			//error message
+			e.printStackTrace();//error message
 		}
 		return connection;
 	}
